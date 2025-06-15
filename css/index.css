@@ -6567,7 +6567,7 @@ a{
     font-size: 1.2em;
 }
 .card-widget.card-info{
-    background-image: url(https://img.june-pj.cn/img/2024%2F04%2Fpersonalbglight.webp)!important;
+    background-image: url('/img/back_img.jpg')!important;
     background-repeat: no-repeat!important;
     background-attachment: inherit!important;
     background-size: 100%!important;
