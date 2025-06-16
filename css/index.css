@@ -2266,12 +2266,18 @@ figure.highlight pre .javascript .function {
   --recent-post-arrow: #fff;
   --recent-post-cover-shadow: #fff;
   --recent-post-transition: all 0.5s cubic-bezier(0.59, 0.01, 0.48, 1.17);
+  --categories-post-bgcolor: #fff;
+  --mark-post-bgcolor: #f2f2f2;
+  --mark-span-color: #000;
 }
 [data-theme="dark"] {
-  --recent-post-bgcolor: rgba(35,35,35,0.5);
+  --recent-post-bgcolor: #222;
   --article-content-bgcolor: #99999a;
   --recent-post-arrow: #37e2dd;
   --recent-post-cover-shadow: #232323;
+  --categories-content-bgcolor: #222;
+  --mark-post-bgcolor: #18171d;
+  --mark-span-color: #fff;
 }
 .recent-posts {
   padding: 0 15px 0 15px;
@@ -2569,6 +2575,18 @@ figure.highlight pre .javascript .function {
 .recent-posts .recent-post-item {
   width: 47%;
   margin: 0px 3% 20px 0px;
+}
+.recent-posts .recent-post-item #swiper_container {
+  background: var(--recent-post-bgcolor) !important;
+}
+.recent-posts .recent-post-item #catalog_magnet {
+  background: var(--categories-content-bgcolor) !important;
+}
+.recent-posts .recent-post-item .magnet_link_context {
+  background: var(--mark-post-bgcolor);
+}
+.recent-posts .recent-post-item .magnet_link {
+  color: var(--mark-span-color);
 }
 #article-container .shuoshuo-item {
   margin-bottom: 20px;
