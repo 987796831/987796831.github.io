@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', tonav);
 function tonav() {
     document.getElementById("name-container").setAttribute("style", "display:none");
 
-    var position = $(window).scrollTop();
+    var position = window.scrollY;
 
-    $(window).scroll(function () {
+    window.addEventListener('scroll',function () {
 
-        var scroll = $(window).scrollTop();
+        var scroll = window.scrollY;
 
         if (scroll > position) {
             document.getElementById("mask-name-container").setAttribute("style", "");
