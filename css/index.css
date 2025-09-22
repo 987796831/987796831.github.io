@@ -2588,6 +2588,18 @@ figure.highlight pre .javascript .function {
 .recent-posts .recent-post-item .magnet_link {
   color: var(--mark-span-color);
 }
+.blog-slider__code {
+  color: #fff;
+  font-size: 1.2em !important;
+}
+.blog-slider__title {
+  color: #fff;
+  font-size: 1.8em !important;
+}
+.blog-slider__text {
+  color: #fff;
+  font-size: 1.4em !important;
+}
 #article-container .shuoshuo-item {
   margin-bottom: 20px;
   padding: 35px 30px 30px;
