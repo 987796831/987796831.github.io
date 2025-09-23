@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const getAllWidth = ele => Array.from(ele).reduce((width, i) => width + i.offsetWidth, 0)
 
     if (init) {
-      const blogInfoWidth = getAllWidth(document.querySelector('#blog-info > a').children)
+      const blogInfoWidth = getAllWidth(document.querySelector('#blog_name > a').children)
       const menusWidth = getAllWidth(document.getElementById('menus').children)
       headerContentWidth = blogInfoWidth + menusWidth
       $nav = document.getElementById('nav')
